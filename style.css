@@ -50,4 +50,26 @@
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
+    color: white;
+    font-family: Ubuntu, sans-serif;
 }
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .hello{
+    font-size: 27px;
+}
+.home .home-content .nayem{
+    font-size: 75px;
+    font-weight: 600;
+}
+.home .home-content .im{
+    font-size: 40px;
+    margin: 5px 0px;
+}
+.home .home-content .im span{
+    color: crimson;
+    font-weight: 500;
+}
+
+
