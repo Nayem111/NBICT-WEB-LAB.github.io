@@ -8,11 +8,15 @@
 }
 
 .navbar{
-    background: crimson;
+    /*background: crimson;*/
     position: fixed;
     width: 100%;
     font-family: Ubuntu, sans-serif;
-    padding: 15px 0;
+    padding: 30px 0;
+}
+.navbar.sticky{
+        background: crimson;
+        padding: 30px 0;
 }
 
 .navbar .max-width{
