@@ -15,3 +15,5 @@ console.log(typeof(x));
 console.log(typeof(firstName));
 console.log(typeof(null));
 
+
+
