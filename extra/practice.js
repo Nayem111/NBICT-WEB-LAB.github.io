@@ -96,4 +96,30 @@ let description= country+ ' '+ 'is' + ' ' + 'in' + continent + ',' + 'it' + ' ' 
 console.log(description);
 
 
+//operator precedence
+
+const now= 2000;
+const aa=now-1990;
+const bb=now-1980;
+const average= (aa+bb)/2;
+
+console.log(aa>bb);
+
+const x=y=25-10+5;
+console.log(y);
+console.log(x);
+console.log(aa,bb,average);
+
+//test data
+ const massMark= 44;
+ const massJohn=99;
+ const heightMark=1.78;
+ const heightJohn=1.67;
+
+ const bmiMark= massMark/(heightMark*massMark);
+ const bmiJohn= massJohn/(heightJohn*massJohn);
+
+ const markHigherbmi= bmiMark>bmiJohn;
+
+ console.log(bmiMark, bmiJohn, markHigherbmi);
 
