@@ -63,7 +63,7 @@ console.log(davidAge>=18);
 */
 
 //exam//
-const country='bangladesh';
+/*const country='bangladesh';
 const continent='asia';
 let population=160;
 console.log(country);
@@ -154,4 +154,21 @@ string`;
  console.log(z1);
 
  console.log(`ndbvuvjruirhnuvir`);
+
+ I am (Nayem) (sakib), I am learning (java Script). at (nbict lab) for (five) years! 
+ apply for both cotation and backtick*/
+
+
+ let fName = `Nazmus Sakib`;
+ let lName = `Nayem`;
+ let topic = `JavaScript`;
+ let institite = `NBICT LAB`;
+ let  StartCourse = 2015;
+ let endCourse = 2020;
+
+ console.log(`i am ${fName} ${lName}, i am leaning ${topic}. at ${institite} for ${endCourse-StartCourse} years !`);
+
+ console.log('i am '+fName +' '+lName+' , '+'i am learning '+topic+'. at '+institite+' for '+ (endCourse-StartCourse)+' years !');
+
+
 
