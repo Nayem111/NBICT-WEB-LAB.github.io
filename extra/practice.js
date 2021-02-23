@@ -123,3 +123,35 @@ console.log(aa,bb,average);
 
  console.log(bmiMark, bmiJohn, markHigherbmi);
 
+ //strings and template literals
+
+ const firstname = 'jonas';
+ const job = 'teacher';
+ const birthyear= 1993;
+ const currentyear= 2021;
+// i am jonas, a 28 years old teacher
+// `` this is back tick symbol
+ const jonas = "I'm "+ firstname+', a '+ (currentyear-birthyear)+' years old '+job+'!';
+
+const jonasNew=`I'm ${firstname} a, ${currentyear-birthyear} years old ${job}`;
+
+console.log(jonas);
+console.log(jonasNew);
+
+console.log('I am \n\a multiline\n\ string');
+
+let z='I am\n\ james\n\ bond';
+console.log(z);
+console.log(`i am 
+a 
+multiline
+string...`);
+
+let z1=`i am
+a 
+multiline
+string`;
+ console.log(z1);
+
+ console.log(`ndbvuvjruirhnuvir`);
+
