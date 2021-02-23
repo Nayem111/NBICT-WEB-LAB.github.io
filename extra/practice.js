@@ -166,9 +166,11 @@ string`;
  let  StartCourse = 2015;
  let endCourse = 2020;
 
- console.log(`i am ${fName} ${lName}, i am leaning ${topic}. at ${institite} for ${endCourse-StartCourse} years !`);
+ console.log(`i am ${fName} ${lName}, 
+ i am leaning ${topic}. 
+ at ${institite} for ${endCourse-StartCourse} years !`);
 
- console.log('i am '+fName +' '+lName+' , '+'i am learning '+topic+'. at '+institite+' for '+ (endCourse-StartCourse)+' years !');
+ console.log('i am '+fName +' '+lName+' , '+'\n\i am learning'+topic+'. at '+institite+' for\n\ '+ (endCourse-StartCourse)+' years !');
 
 
 
