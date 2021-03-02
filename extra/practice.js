@@ -159,7 +159,7 @@ string`;
  apply for both cotation and backtick*/
 
 
- let fName = `Nazmus Sakib`;
+ /*let fName = `Nazmus Sakib`;
  let lName = `Nayem`;
  let topic = `JavaScript`;
  let institite = `NBICT LAB`;
@@ -170,7 +170,50 @@ string`;
  i am leaning ${topic}. 
  at ${institite} for ${endCourse-StartCourse} years !`);
 
- console.log('i am '+fName +' '+lName+' , '+'\n\i am learning'+topic+'. at '+institite+' for\n\ '+ (endCourse-StartCourse)+' years !');
+ console.log('i am '+fName +' '+lName+' , '+'\n\i am learning'+topic+'. at '+institite+' for\n\ '+ (endCourse-StartCourse)+' years !');*/
+
+const country=`Bangladesh`;
+let population= 160;
+const continent= `asia`;
+ console.log(country,population,continent);
+
+ const isIsland= true;
+let language=`bangla`;
+
+ console.log(`type of the variable
+  is ${typeof(country)}`);
+console.log(`type of population is
+${typeof(population)}`);
+console.log(`type of Isisland is
+${typeof(isIsland)}`);
+console.log(`type of population is
+${typeof(language)}`);
 
 
+
+console.log(language);
+
+let firstHalf=population/2;
+let secondHalf=population-firstHalf;
+console.log(`each half will contain ${secondHalf} million people`);
+
+let newPop=population+1;
+console.log(`if we add 1 to the ${population} the we will get s${newPop}`);
+
+let finPop=161;
+let condiition=population>finPop;
+if (condiition){
+    console.log(`our population is greater then Finland`)
+}else{
+    console.log(`out population is less then finalnd population`)
+};
+let averagePop=33;
+if(population>averagePop){
+    console.log(`my country is more pop than the average`)
+}else{
+    console.log(`my country is high density`)
+};
+
+let description=(`${country} is in ${continent}, and it's ${population} million speaks in ${language}`);
+console.log(description);
 
