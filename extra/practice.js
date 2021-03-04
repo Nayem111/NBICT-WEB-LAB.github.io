@@ -170,7 +170,7 @@ string`;
  i am leaning ${topic}. 
  at ${institite} for ${endCourse-StartCourse} years !`);
 
- console.log('i am '+fName +' '+lName+' , '+'\n\i am learning'+topic+'. at '+institite+' for\n\ '+ (endCourse-StartCourse)+' years !');*/
+ console.log('i am '+fName +' '+lName+' , '+'\n\i am learning'+topic+'. at '+institite+' for\n\ '+ (endCourse-StartCourse)+' years !');
 
 const country=`Bangladesh`;
 let population= 160;
@@ -215,5 +215,19 @@ if(population>averagePop){
 };
 
 let description=(`${country} is in ${continent}, and it's ${population} million speaks in ${language}`);
-console.log(description);
+console.log(description);*/
+
+let age=10;
+let year;
+if (age>=18){
+    console.log(`she is eligble for license`);
+}else{
+     year=18-age;
+    console.log(`apply after ${year} year(s)`) //here year could be a varible if it had let//
+};
+
+
+
+
+
 
