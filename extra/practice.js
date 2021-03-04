@@ -220,11 +220,39 @@ console.log(description);*/
 let age=10;
 let year;
 if (age>=18){
-    console.log(`she is eligble for license`);
+    console.log(`she is eligible for license`);
 }else{
      year=18-age;
     console.log(`apply after ${year} year(s)`) //here year could be a varible if it had let//
 };
+
+//Challange 1//
+
+ let MarkMass=78;
+ let MarkHeight=1.69;
+
+ let JohnMass=95;
+ let JohnHeight=1.88;
+
+
+ let MarkBMI=MarkMass/MarkHeight**2;
+console.log(MarkBMI);
+
+let JohnBMI=JohnMass/JohnHeight**2;
+console.log(JohnBMI);
+
+markHigherBMI=MarkBMI>JohnBMI;
+console.log(markHigherBMI);
+
+//challange 2//
+
+if (MarkBMI>JohnBMI){
+    console.log(`Mark's BMI is higher than John's`)
+}else{
+    console.log(`John's BMI is higher than Mark`)
+};
+
+console.log(`Mark's BMI ${MarkBMI} is higher than John's ${JohnBMI}`);
 
 
 
